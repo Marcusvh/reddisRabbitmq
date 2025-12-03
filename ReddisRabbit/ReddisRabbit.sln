@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReddisRabbitAPI", "ReddisRabbitAPI\ReddisRabbitAPI.csproj", "{97E9027B-70A9-4FB5-95ED-5DF6DDE6F05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReddisRabbitModel", "ReddisRabbitModel\ReddisRabbitModel.csproj", "{BE0D10A3-C185-4F2E-AFD9-190197ABE0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReddisRabbitGameLogic", "ReddisRabbitGameLogic\ReddisRabbitGameLogic.csproj", "{5BD75C2B-17BC-443F-9FD4-CF8C8CE08954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchmakingWorker", "MatchmakingWorker\MatchmakingWorker.csproj", "{1377B72A-CFB1-40BC-8AA8-E7B37ECD90BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E9027B-70A9-4FB5-95ED-5DF6DDE6F05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E9027B-70A9-4FB5-95ED-5DF6DDE6F05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E9027B-70A9-4FB5-95ED-5DF6DDE6F05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E9027B-70A9-4FB5-95ED-5DF6DDE6F05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0D10A3-C185-4F2E-AFD9-190197ABE0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0D10A3-C185-4F2E-AFD9-190197ABE0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0D10A3-C185-4F2E-AFD9-190197ABE0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0D10A3-C185-4F2E-AFD9-190197ABE0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD75C2B-17BC-443F-9FD4-CF8C8CE08954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD75C2B-17BC-443F-9FD4-CF8C8CE08954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD75C2B-17BC-443F-9FD4-CF8C8CE08954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD75C2B-17BC-443F-9FD4-CF8C8CE08954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1377B72A-CFB1-40BC-8AA8-E7B37ECD90BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1377B72A-CFB1-40BC-8AA8-E7B37ECD90BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1377B72A-CFB1-40BC-8AA8-E7B37ECD90BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1377B72A-CFB1-40BC-8AA8-E7B37ECD90BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F64A6F0-1158-4B5D-9300-AABB10243927}
+	EndGlobalSection
+EndGlobal

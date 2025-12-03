@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redis + SignalR Game Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@7.0.10/dist/browser/signalr.min.js"></script>
+    <style>
+        #grid { display: grid; grid-template-columns: repeat(5, 50px); grid-template-rows: repeat(5, 50px); gap: 2px; }
+        .cell { border: 1px solid #333; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+        .player { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Lobby & Grid Demo</h1>
+    <label id="playerName">Player ID: </label>
+    <button id="joinLobby">Join Lobby</button>
+    <button id="leaveLobby">Leave Lobby</button>
+
+    <h2>Lobby</h2>
+    <ul id="lobbyList"></ul>
+
+    <h2>Match Grid (5x5)</h2>
+    <div id="grid"></div>
+
+    <button id="moveN">Move North</button>
+    <button id="moveS">Move South</button>
+    <button id="moveE">Move East</button>
+    <button id="moveW">Move West</button>
+    <button id="attack">Attack</button>
+
+    <script src="index.js"></script>
+</body>
+</html>

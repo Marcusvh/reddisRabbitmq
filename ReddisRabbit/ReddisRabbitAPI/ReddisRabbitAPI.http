@@ -1,0 +1,6 @@
+@ReddisRabbitAPI_HostAddress = http://localhost:5169
+
+GET {{ReddisRabbitAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
