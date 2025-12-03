@@ -11,7 +11,7 @@
 |---------------|-------|
 | Maybe use/look at Hangfire for external job scheduler | Background processing |
 
-```Mermaid
+```mermaid
 flowchart TD
 
     subgraph Clients["Clients (Browser / Game UI)"]
